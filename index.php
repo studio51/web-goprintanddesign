@@ -19,8 +19,87 @@
 		<!--[if lt IE 9]>
 				<script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
 		<![endif]-->
+
 	</head>
 	<body>
+    <section id="intro" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <header>
+
+            </header>
+
+            <p>
+              Welcome to <strong>Go Print &amp; Design</strong>,
+              we are a small company offering Media, Print &amp; Design solutions across North West.
+            </p>
+
+            <footer>
+              <a href="#one" class="button style2 down">More</a>
+            </footer>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="panel panel-defaut">
+              <div class="panel-header">
+                <h4>Get your free quote!
+              </div>
+
+              <form class="form-horizontal" role="form">
+                <div class="panel-body">
+                  <div class="form-group">
+                    <div class="col-xs-12">
+                      <input type="text" class="form-control input-lg user" autofocus placeholder="Name *" />
+                    </div>
+
+                    <div class="col-xs-12">
+                      <input type="email" class="form-control input-lg email" placeholder="Email address *" />
+                    </div>
+
+                    <div class="col-xs-12">
+                      <input type="text" class="form-control input-lg phone" placeholder="Telephone" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-xs-12">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="Print" /> Print
+                        </label>
+                      </div>
+
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="Design" /> Design
+                        </label>
+                      </div>
+
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="Other" /> Other
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-xs-12">
+                      <textarea class="form-control description" rows="3"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-footer">
+                  <input type="submit" class="form-control" value="Send">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 		<!--[if lt IE 7]>
 				<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
